@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Tasks:</ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-list *ngFor="let item of task">
+    <ion-card class="ion-margin-start"> 
+      <div ion-item class="padding: 10px">
+        <ion-card-title > Name: {{ item.name }} </ion-card-title> <br>
+        <ion-card-title > Task: {{ item.tasks }} </ion-card-title ><br>
+        <ion-button class="ion-margin-top ion-margin-bottom" color="danger" shape="round" expand="block" (click)='deleteItem(item)'> 
+          <ion-icon name="trash-bin-outline"></ion-icon>
+        </ion-button>
+      </div>
+    </ion-card>
+  </ion-list>
+
+  <ion-button class="ion-padding ion-margin" color="success" shape="round" expand="block" routerLink="/home">Add a new task</ion-button>
+
+</ion-content>
