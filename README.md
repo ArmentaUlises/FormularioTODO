@@ -1,7 +1,7 @@
 # Formulario para to do list
 
 
-##### Proyecto en el que se utiliza formularios reactivos de Ionic y Angular para listar una serie de tareas a realizar
+##### Listado de tareas desarrolado en ionic, el motivo principal de este proyecto fue el de aprender a utilizar los formularios reactivos de Angular.
 
 ## Capturas
 
